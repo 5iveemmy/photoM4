@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { BiCamera, HiOutlineLightBulb } from "react-icons/all";
+import { BiCamera, CgStack, HiOutlineLightBulb } from "react-icons/all";
 import "./PhotoSection.css";
 
 function PhotoSection() {
@@ -139,12 +139,38 @@ function PhotoSection() {
           <div className="the-flex">
             <div className="flex-wrap">
               <div className="camera">
-                <BiCamera />
+                <BiCamera className="flex-icons" />
+                <h4>Photo Sessions</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer ullamcorper elementum felis in bibendum. Proin vitae
+                  turpis ipsum.
+                </p>
+                <h5>READ MORE</h5>
+                <hr />
               </div>
               <div className="occasions">
-                <HiOutlineLightBulb />
+                <HiOutlineLightBulb className="flex-icons" />
+                <h4>Ocassions</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer ullamcorper elementum felis in bibendum. Proin vitae
+                  turpis ipsum.
+                </p>
+                <h5>READ MORE</h5>
+                <hr />
               </div>
-              <div className="coverage"></div>
+              <div className="coverage">
+                <CgStack className="flex-icons" />
+                <h4>Coverage</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer ullamcorper elementum felis in bibendum. Proin vitae
+                  turpis ipsum.
+                </p>
+                <h5>READ MORE</h5>
+                <hr />
+              </div>
             </div>
           </div>
         </div>

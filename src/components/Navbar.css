@@ -1,0 +1,128 @@
+* {
+  font-family: DM Sans, sans-serif;
+}
+
+.navbar {
+  margin-top: 0;
+  top: 0;
+  height: auto;
+}
+
+#navbar {
+  position: fixed;
+  background-color: black;
+  top: -150px;
+  width: 100%;
+  left: 0px;
+  z-index: 9999;
+  margin: auto;
+  /* transition: ease-in; */
+  animation: 300s ease-in-out 10s 1 normal none running fadeInDown;
+}
+
+.navbar-container {
+  padding: 0px 110px 0px 110px;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -16px;
+}
+
+.for-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.social-icon-link {
+  color: white;
+  padding: 10px;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-left: 43px;
+}
+.nav-links:active {
+  color: rgb(129, 129, 129);
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.right-head h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.menu-wrap {
+  width: 60%;
+  margin-top: 40px;
+}
+
+.first {
+  position: relative;
+  display: inline-block;
+}
+
+.live-dropdown {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: 16rem;
+  padding: 30px 10px 10px 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* font-size: 14px; */
+  font-weight: 600;
+  text-align: center;
+  margin-left: -2rem;
+}
+
+.live-dropdown .demo {
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.live-dropdown .demo:hover {
+  background-color: black;
+}
+
+.first:hover .live-dropdown,
+.second:hover .live-dropdown {
+  display: block;
+}
+
+.for-demo:hover,
+.live-demo:hover {
+  color: #d8d7d7;
+}
+/* .buy-button {
+  margin-top: -16px;
+} */
+.buy-outline {
+  color: white;
+  margin: -8.6px 12.8px;
+  padding: 6.4px 27px;
+  background-color: transparent;
+  border: 0.5px white solid;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.buy-outline:hover {
+  background-color: white;
+  transition: ease-in 0.25s;
+  color: black;
+  cursor: pointer;
+}
