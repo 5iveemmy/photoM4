@@ -2,6 +2,9 @@
   background-color: white;
   height: auto;
 }
+.events {
+  padding: 0px 0px 30px;
+}
 
 .header {
   text-align: center;
@@ -165,4 +168,45 @@ progress {
   width: 100%;
   border-radius: 2px;
   height: 3px;
+}
+
+.counter {
+  background-color: white;
+  height: auto;
+}
+
+.counter-flex {
+  padding: 75px 110px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter-icons {
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: #dd8100;
+  padding-left: 6.5rem;
+}
+
+.pure-counter {
+  color: #232323;
+  font-size: 70.4px;
+  font-weight: 700;
+  line-height: 8rem;
+  text-align: center;
+  /* margin-left: 5rem; */
+}
+.counter-flex h6 {
+  font-size: 19.2px;
+  font-weight: 600;
+  margin: 0rem 0rem 2rem 0rem;
+  text-align: center;
+}
+.counter-flex p {
+  color: #767676;
+  line-height: 24px;
+  width: 17rem;
+  margin: 0px 0px 16px;
+  text-align: center;
 }

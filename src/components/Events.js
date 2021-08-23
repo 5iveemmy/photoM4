@@ -1,4 +1,5 @@
 import React from "react";
+import { BiCamera, CgStack, HiOutlineLightBulb } from "react-icons/all";
 import "./Events.css";
 
 function Events() {
@@ -130,6 +131,58 @@ function Events() {
           </div>
           <div className="the-image">
             <img src="./images/02.jpg" alt="hands on camera" />
+          </div>
+        </div>
+      </div>
+      <div className="counter">
+        <div className="counter-flex">
+          <div className="session-flex">
+            <BiCamera className="counter-icons" />
+            <div
+              data-purecounter-start="0"
+              data-purecounter-end="2937"
+              data-purecounter-duration="0"
+              className="pure-counter"
+            >
+              2937
+            </div>
+            <h6>Photo Sessions</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              ullamcorper elementum felis in bibendum. Proin vitae turpis ipsum.
+            </p>
+          </div>
+          <div className="ocassion-flex">
+            <HiOutlineLightBulb className="counter-icons" />
+            <div
+              data-purecounter-start="0"
+              data-purecounter-end="1286"
+              data-purecounter-duration="3"
+              className="pure-counter"
+            >
+              1286
+            </div>
+            <h6>Photo Sessions</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              ullamcorper elementum felis in bibendum. Proin vitae turpis ipsum.
+            </p>
+          </div>
+          <div className="cover-flex">
+            <CgStack className="counter-icons" />
+            <div
+              data-purecounter-start="0"
+              data-purecounter-end="1329"
+              data-purecounter-duration="0"
+              className="pure-counter"
+            >
+              1329
+            </div>
+            <h6>Photo Sessions</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              ullamcorper elementum felis in bibendum. Proin vitae turpis ipsum.
+            </p>
           </div>
         </div>
       </div>
