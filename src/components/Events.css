@@ -98,7 +98,7 @@
 
 .photography {
   background-image: url("../images/background1.jpg");
-  height: 770px;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,13 +108,13 @@
 }
 
 .the-image {
-  margin-top: -8rem;
+  margin-top: 2rem;
 }
 
 .the-image img {
   width: 614px;
-  height: 900px;
-  object-fit: none;
+  height: 675px;
+  object-fit: cover;
 }
 
 .photo-flex {
@@ -138,4 +138,31 @@
   line-height: 27.2px;
   text-align: left;
   width: 35rem;
+}
+
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0px -1rem;
+}
+
+.the-number {
+  position: relative;
+  top: 22px;
+}
+
+progress::-moz-progress-bar {
+  background: white;
+}
+progress::-webkit-progress-value {
+  background: white;
+}
+progress {
+  color: rgb(255, 255, 255);
+}
+
+.progress {
+  width: 100%;
+  border-radius: 2px;
+  height: 3px;
 }
