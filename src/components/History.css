@@ -106,15 +106,62 @@
   margin: 0rem 25.5rem;
   text-align: center;
 }
-
+/* first animation */
 .pictures-flex {
   display: flex;
+  /* margin: 10px auto 2000px; */
 }
+.pictures-flex .bex {
+  position: relative;
+  box-sizing: border-box;
+}
+.pictures-flex .bex .img-bex {
+  position: relative;
+  overflow: hidden;
+}
+.pictures-flex .bex .img-bex img {
+  transition: transform 2s;
+}
+
+.pictures-flex .bex:hover .img-bex img {
+  transform: scale(1.2);
+}
+.pictures-flex .bex .deteils {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  transform: scaleY(0);
+  transition: transform 0.5s;
+}
+.pictures-flex .bex:hover .deteils {
+  transform: scaleY(1);
+}
+.pictures-flex .bex .deteils .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #ffffff;
+}
+.pictures-flex .bex .deteils .content h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.pictures-flex .bex .deteils .content p {
+  margin: 20px 0;
+  padding: 0;
+}
+
 .pictures-flex img {
   width: 449.6px;
   height: 500px;
 }
-
+/* second animation*/
 .container-wrap {
   width: 1280px;
   margin: 70px auto 0;
@@ -147,6 +194,7 @@
 
 .container-wrap .box:hover .details {
   position: absolute;
+  cursor: pointer;
   top: 0px;
   left: 0px;
   bottom: 0px;
@@ -157,6 +205,61 @@
 .contain-flex {
   padding-top: 20px;
   display: flex;
+}
+
+/* third animation*/
+.contain-flex .bax {
+  position: relative;
+  box-sizing: border-box;
+}
+.contain-flex .bax .img-bax {
+  position: relative;
+  overflow: hidden;
+}
+.contain-flex .bax .img-bax img {
+  transition: transform 2s;
+}
+
+.contain-flex .bax:hover .img-bax img {
+  transform: scale(1.2);
+}
+.contain-flex .bax .detaails {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  transform: scaleY(0);
+  transition: transform 1.5s;
+}
+.contain-flex .bax:hover .detaails {
+  transform: scaleY(1);
+}
+.contain-flex .bax .detaails .contant {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #ffffff;
+}
+.contain-flex .bax .detaails .contant h5 {
+  margin: 0px 0px 8px;
+  padding: 0 0px 9px;
+  /* font-size: 20px; */
+  letter-spacing: 2px;
+  line-height: 16px;
+}
+.contain-flex .bax .detaails .contant h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 19.2px;
+  font-weight: 500;
+}
+.contain-flex .bex .detaails .contant p {
+  margin: 20px 0;
+  padding: 0;
 }
 
 .contain-flex img {

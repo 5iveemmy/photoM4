@@ -12,9 +12,7 @@ function Events() {
           <div className="event-flex">
             <div className="one">
               <div className="img-container">
-                <div className="middle">
-                  <img src="./images/01.jpg" alt="hands on camera" />
-                </div>
+                <img src="./images/01.jpg" alt="hands on camera" />
               </div>
               <span className="for-date">AUGUST 23 - DECEMBER 24, 2021</span>
               <h4 className="event-third-head">

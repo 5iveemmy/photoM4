@@ -37,9 +37,39 @@ function History() {
 
       <div className="pictures">
         <div className="pictures-flex">
-          <img src="../images/gallery01.jpg" alt="snow on mountain" />
-          <img src="../images/gallery02.jpg" alt="bridge" />
-          <img src="../images/background1.jpg" alt="red mountain" />
+          <div className="bex">
+            <div className="img-bex">
+              <img src="../images/gallery01.jpg" alt="snow on mountain" />
+            </div>
+            <div className="deteils">
+              <div className="content">
+                <h4>ARTWORK</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div className="bex">
+            <div className="img-bex">
+              <img src="../images/gallery02.jpg" alt="bridge" />
+            </div>
+            <div className="deteils">
+              <div className="content">
+                <h4>ARTWORK</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div className="bex">
+            <div className="img-bex">
+              <img src="../images/background1.jpg" alt="red mountain" />
+            </div>
+            <div className="deteils">
+              <div className="content">
+                <h4>ARTWORK</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="container">
@@ -100,11 +130,37 @@ function History() {
       </div>
       <div className="container-2">
         <div className="contain-flex">
-          <div className="first-image">
-            <img src="../images/gallery01.jpg" alt="snow on mountain" />
+          <div className="bax">
+            <div className="img-bax">
+              <img src="../images/gallery01.jpg" alt="snow on mountain" />
+            </div>
+            <div className="detaails">
+              <div className="contant">
+                <h5>ARTWORK</h5>
+                <h6>Landscapes Photography</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer ullamcorper elementum.
+                </p>
+              </div>
+            </div>
           </div>
-          <img src="../images/gallery02.jpg" alt="bridge" />
-          <div className="details"></div>
+
+          <div className="bax">
+            <div className="img-bax">
+              <img src="../images/gallery02.jpg" alt="bridge" />
+            </div>
+            <div className="detaails">
+              <div className="contant">
+                <h5>ARTWORK</h5>
+                <h6>Landscapes Photography</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer ullamcorper elementum.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
