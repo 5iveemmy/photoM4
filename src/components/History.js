@@ -25,7 +25,7 @@ function History() {
       <div className="portfolio">
         <div className="portfolio-wrap">
           <h4 className="for-line">PORTFOLIO</h4>
-          <h5>Showcase</h5>
+          <h5 className="second-header">Showcase</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu dui
             non diam eleifend egestas id a ligula. Proin interdum vehicula neque

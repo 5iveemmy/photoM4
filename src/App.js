@@ -5,6 +5,7 @@ import Events from "./components/Events";
 import History from "./components/History";
 import Navbar from "./components/Navbar";
 import PhotoSection from "./components/PhotoSection";
+import Teams from "./components/Teams";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <PhotoSection />
         <Events />
         <History />
+        <Teams />
       </Router>
     </>
   );
