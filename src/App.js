@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
         <PhotoSection />
+        <Navbar />
         <Events />
         <History />
         <Teams />

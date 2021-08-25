@@ -3,21 +3,18 @@
 }
 
 .navbar {
-  margin-top: 0;
   top: 0;
   height: auto;
-}
-
-#navbar {
   position: fixed;
-  background-color: black;
-  top: -150px;
+  background: transparent;
   width: 100%;
-  left: 0px;
   z-index: 9999;
   margin: auto;
-  /* transition: ease-in; */
-  animation: 300s ease-in-out 10s 1 normal none running fadeInDown;
+}
+
+.navbar.active {
+  background: black;
+  transition: 0.4s;
 }
 
 .navbar-container {
@@ -41,11 +38,14 @@
   color: white;
   padding: 10px;
 }
-.nav-item {
+.nav-menu {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-left: 43px;
+  margin-left: 6px;
+}
+.nav-item {
+  list-style: none;
 }
 .nav-links:active {
   color: rgb(129, 129, 129);
@@ -125,4 +125,115 @@
   transition: ease-in 0.25s;
   color: black;
   cursor: pointer;
+}
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .for-icons {
+    margin-top: 2rem;
+  } */
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -300%;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    padding: 1em;
+    background-color: black;
+    top: 80px;
+    left: -10px;
+    opacity: 1;
+    z-index: 1000;
+  }
+  .nav-item {
+    padding: 15px;
+  }
+  .fa-bars,
+  .fa-times {
+    transform: scale(2.4, 1.7);
+  }
+
+  .right-head h2 {
+    margin-left: -6rem;
+    font-size: 35.7325px;
+    text-align: left;
+  }
+  .menu-wrap {
+    margin: 75px 0px 6.4px;
+    padding-right: 87px;
+  }
+
+  .buy-button {
+    align-self: center;
+    padding-right: 1.5rem;
+  }
+  .buy-outline {
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -300%;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    padding: 1em;
+    background-color: black;
+    top: 40px;
+    left: -10px;
+    opacity: 1;
+    z-index: 1000;
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 25px;
+    color: white;
+    cursor: pointer;
+  }
+  .right-head h2 {
+    font-size: 44.8px;
+    line-height: 19.2px;
+
+    margin-left: -5.5rem;
+  }
+  .fa-bars,
+  .fa-times {
+    transform: scale(2.4, 1.7);
+  }
+  .nav-item {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .buy-button {
+    padding: 10px 1.5rem 10px 0px;
+    align-self: center;
+  }
+  .buy-outline {
+    width: 45.5rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .menu-wrap {
+    width: 100%;
+  }
 }

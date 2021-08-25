@@ -58,6 +58,29 @@
   border-radius: 8px;
   outline: none;
 }
+.row-one i,
+.row-two i,
+.second-row i,
+.text-row i {
+  position: absolute;
+  color: #4554c1;
+}
+.form-icon-one .far,
+.form-icon-one .fas {
+  padding: 19px;
+  min-width: 40px;
+  right: 5.5em;
+}
+.form-icon-two .far {
+  padding: 19px;
+  min-width: 40px;
+  right: 5.5em;
+}
+.far {
+  padding: 19px;
+  min-width: 40px;
+  right: 40.5em;
+}
 .row-one {
   padding-right: 0.7rem;
 }

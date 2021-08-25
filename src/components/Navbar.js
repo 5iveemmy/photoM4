@@ -4,24 +4,27 @@ import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  window.onscroll = function () {
-    scrollFunction();
+  const [navbar, setNavbar] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
+  // handleClick = () => {
+
+  // };
+  const changeBackground = () => {
+    if (window.scrollY >= 50) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
   };
 
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
-    ) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-150px";
-    }
-  }
+  window.addEventListener("scroll", changeBackground);
 
   return (
     <>
-      <nav className="navbar" id="navbar">
+      <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
           <div className="nav-wrap">
             <div className="right-head">
@@ -65,11 +68,20 @@ function Navbar() {
                 </Link>
               </div>
               <div className="navigation-bar">
+                <div className="menu-icon" onClick={handleClick}>
+                  <i
+                    className={
+                      click ? "fas fa-times fa-sm" : "fas fa-bars fa-sm"
+                    }
+                  />
+                </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                   <li className="nav-item">
                     <Link to="/" className="nav-links">
                       HOME
                     </Link>
+                  </li>
+                  <li className="nav-item">
                     <Link to="/" className="nav-links first">
                       <span className="for-demo">LIVE DEMO</span>{" "}
                       <i class="fas fa-caret-down" />
@@ -91,6 +103,8 @@ function Navbar() {
                         </Link>
                       </div>
                     </Link>
+                  </li>
+                  <li className="nav-item">
                     <Link to="/" className="nav-links second">
                       <span className="live-demo">LIVE DEMO BLOCKS</span>
                       <i class="fas fa-caret-down" />
@@ -121,10 +135,10 @@ function Navbar() {
                         </Link>
                       </div>
                     </Link>
-                    <div className="buy-button">
-                      <button className="buy-outline">Buy Now</button>
-                    </div>
                   </li>
+                  <div className="buy-button">
+                    <button className="buy-outline">Buy Now</button>
+                  </div>
                 </ul>
               </div>
             </div>
