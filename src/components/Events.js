@@ -14,7 +14,7 @@ function Events() {
               <div className="img-container">
                 <img src="./images/01.jpg" alt="hands on camera" />
               </div>
-              <span className="for-date">AUGUST 23 - DECEMBER 24, 2021</span>
+              <h3 className="for-date">AUGUST 23 - DECEMBER 24, 2021</h3>
               <h4 className="event-third-head">
                 Stray gleams steal into the inner sanctuary
               </h4>
@@ -27,8 +27,10 @@ function Events() {
               <hr />
             </div>
             <div className="two">
-              <img src="./images/02.jpg" alt="hands on camera" />
-              <span className="for-date">AUGUST 23 - DECEMBER 24, 2021</span>
+              <div className="img-container">
+                <img src="./images/02.jpg" alt="hands on camera" />
+              </div>
+              <h3 className="for-date">AUGUST 23 - DECEMBER 24, 2021</h3>
               <h4 className="event-third-head">
                 Absorbed in the exquisite sense of tranquil
               </h4>
@@ -41,8 +43,10 @@ function Events() {
               <hr />
             </div>
             <div className="one">
-              <img src="./images/03.jpg" alt="hands on camera" />
-              <span className="for-date">AUGUST 23 - DECEMBER 24, 2021</span>
+              <div className="img-container">
+                <img src="./images/03.jpg" alt="hands on camera" />
+              </div>
+              <h3 className="for-date">AUGUST 23 - DECEMBER 24, 2021</h3>
               <h4 className="event-third-head">
                 The meridian sun strikes the upper surface
               </h4>
