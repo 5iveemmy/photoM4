@@ -4,7 +4,6 @@
 }
 
 .team-wrap {
-  padding-top: 60px;
   padding-bottom: 45px;
 }
 
@@ -126,4 +125,67 @@
 
 .lil-icons span {
   padding-right: 6px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .faces img {
+    width: 257px;
+    height: 385.5px;
+  }
+
+  .first-paragraph {
+    width: 26rem;
+  }
+  @media only screen and (max-width: 992px) {
+    .faces-wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .faces img {
+      width: 313px;
+      height: 469.5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .faces img {
+    width: 476px;
+    height: 714px;
+  }
+  .face-text {
+    text-align: center;
+    padding: 12px 22px 28px;
+  }
+  .faces p {
+    text-align: center;
+    width: 27rem;
+  }
+
+  .clients-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .clients-text h5 {
+    font-size: 36.9861px;
+    line-height: 51.7805px;
+    text-align: center;
+  }
+  .clients-text h6 {
+    text-align: center;
+    font-size: 18.4154px;
+    font-weight: 500;
+    line-height: 25.7815px;
+  }
+  .first-paragraph {
+    width: 31rem;
+    text-align: center;
+  }
+  .lil-icons {
+    flex-direction: column;
+    text-align: center;
+  }
+  .lil-icons p {
+    text-align: center;
+  }
 }

@@ -92,8 +92,7 @@
   text-align: center;
   letter-spacing: 2.3px;
 }
-.one,
-.two {
+.one {
   padding-bottom: 20px;
 }
 
@@ -151,6 +150,31 @@
   position: relative;
   top: 22px;
 }
+/* for progress */
+.progress-one .the-number ::before {
+  position: absolute;
+  right: 17px;
+  top: 0;
+  content: "100";
+}
+.progress-two .the-number ::before {
+  position: absolute;
+  right: 17px;
+  top: 0;
+  content: "90";
+}
+.progress-three .the-number ::before {
+  position: absolute;
+  right: 17px;
+  top: 0;
+  content: "80";
+}
+.progress-four .the-number ::before {
+  position: absolute;
+  right: 17px;
+  top: 0;
+  content: "70";
+}
 
 progress::-moz-progress-bar {
   background: white;
@@ -166,6 +190,7 @@ progress {
   width: 100%;
   border-radius: 2px;
   height: 3px;
+  overflow: hidden;
 }
 
 .counter {
@@ -182,9 +207,9 @@ progress {
 .counter-icons {
   font-size: 56px;
   line-height: 56px;
-  text-align: center;
+  /* text-align: center; */
   color: #dd8100;
-  padding-left: 6.5rem;
+  /* padding-left: 6.5rem; */
 }
 
 .pure-counter {
@@ -192,21 +217,53 @@ progress {
   font-size: 70.4px;
   font-weight: 700;
   line-height: 8rem;
-  text-align: center;
-  /* margin-left: 5rem; */
 }
 .counter-flex h6 {
   font-size: 19.2px;
   font-weight: 600;
   margin: 0rem 0rem 2rem 0rem;
-  text-align: center;
 }
 .counter-flex p {
   color: #767676;
   line-height: 24px;
   width: 17rem;
   margin: 0px 0px 16px;
+}
+.session-flex,
+.ocassion-flex,
+.cover-flex {
   text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+  .photo-text p {
+    width: 32rem;
+  }
+  .the-image img {
+    width: 528px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .event-flex {
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+  }
+  .event-third-head {
+    width: 23.5rem;
+  }
+  .photo-flex {
+    flex-direction: column;
+  }
+  .photo-text p {
+    width: 56rem;
+  }
+  .the-image img {
+    width: 57rem;
+  }
+
+  .counter-flex {
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -221,6 +278,11 @@ progress {
     width: 48rem;
     padding: 0px;
   }
+
+  .event-flex p {
+    width: 20rem;
+    margin: auto;
+  }
   .event-flex img {
     object-fit: cover;
     height: 300px;
@@ -230,10 +292,30 @@ progress {
     width: 24rem;
   }
   .one {
-    margin-left: -0.5rem;
+    margin-left: -1.5rem;
   }
-  .two {
-    margin-left: -3rem;
+
+  .photo-flex {
+    flex-wrap: wrap;
+    padding-right: 2rem;
+  }
+  .photo-text p {
+    width: 42rem;
+  }
+  /* .the-number {
+    width: 46px;
+    right: 24px;
+  } */
+
+  .the-image img {
+    width: 688px;
+  }
+  .counter-flex {
+    flex-direction: column;
+  }
+  .counter-flex p {
+    width: 26rem;
+    margin: 0px 72px 16px;
   }
 }
 
@@ -249,24 +331,18 @@ progress {
     width: 35rem;
   }
   .event-flex {
-    width: 26rem;
+    width: auto;
+    /* max-width: 600px; */
     flex-direction: column;
     padding: 15px 0px 75px;
   }
   .event-flex img {
     width: 500px;
     height: 300px;
-
-    align-content: center;
   }
 
   .event-flex p {
     width: 33rem;
-  }
-  .one,
-  .two {
-    margin-left: -1rem;
-    padding: 15px 0px 0px;
   }
 
   .photo-flex {
@@ -289,12 +365,16 @@ progress {
   }
   .counter-flex {
     flex-direction: column;
-  }
-  .counter-icons {
-    padding-left: 9.5rem;
+    align-content: center;
   }
   .counter-flex p {
     width: 26rem;
-    margin-left: -2rem;
+  }
+  .progress {
+    width: 94%;
+  }
+  .the-number span {
+    position: absolute;
+    right: 17px;
   }
 }

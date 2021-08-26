@@ -6,12 +6,14 @@ function Footer() {
     <div className="footer">
       <div className="footer-wrapper">
         <div className="write">
-          <h2>Write Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-            feugiat neque. Nulla gravida sodales enim at interdum. Pellentesque
-            habitant morbi tristique senectus et netus.
-          </p>
+          <div className="write-wrap">
+            <h2>Write Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+              feugiat neque. Nulla gravida sodales enim at interdum.
+              Pellentesque habitant morbi tristique senectus et netus.
+            </p>
+          </div>
         </div>
         <div className="form">
           <div className="form-wrapper">
@@ -36,23 +38,25 @@ function Footer() {
                   />
                 </div>
               </div>
-              <div className="first-row">
-                <div className="row-one">
+              <div className="first-row" id="new-row">
+                <div className="row-one" id="email-row">
                   <i class="far fa-envelope"></i>
                   <input
                     placeholder="Email"
                     type="email"
                     className="form-control"
+                    id="email"
                   />
                 </div>
-                <div className="row-two">
+                <div className="row-two" id="phone-id">
                   <span className="form-icon-one">
                     <i class="fas fa-phone-alt"></i>
                   </span>
                   <input
                     placeholder="Phone"
-                    type="number"
+                    type="tel"
                     className="form-control"
+                    id="phone"
                   />
                 </div>
               </div>

@@ -77,7 +77,7 @@
   font-weight: 500;
   letter-spacing: 6px;
   line-height: 26.88px;
-  margin: 0px 190.497px 22.4px;
+  width: 100%;
   text-align: center;
 }
 
@@ -140,7 +140,7 @@
   transform: scaleY(1);
 }
 .pictures-flex .bex .deteils .content {
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
@@ -237,7 +237,7 @@
   transform: scaleY(1);
 }
 .contain-flex .bax .detaails .contant {
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
@@ -275,3 +275,103 @@
   right: 0px;
   background: rgba(0, 0, 0, 0.5);
 } */
+@media only screen and (max-width: 1200px) {
+  .history-wrap {
+    justify-content: space-around;
+    padding-left: 39rem;
+  }
+
+  .the-text p {
+    width: 22rem;
+  }
+  .portfolio p {
+    margin: 0rem 23.5rem;
+  }
+  .pictures-flex img {
+    width: 394px;
+  }
+  .container-wrap {
+    width: 1138px;
+  }
+  .container-wrap .box {
+    width: 264.41px;
+    height: 176.27px;
+  }
+  .contain-flex img {
+    width: 591px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .history-wrap {
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 100px;
+  }
+  .the-text p {
+    width: 33.5rem;
+  }
+  .portfolio p {
+    margin: 1rem 13.5rem;
+  }
+  .pictures-flex {
+    flex-direction: column;
+  }
+  .pictures-flex img {
+    width: 61rem;
+  }
+  .container-wrap {
+    flex-wrap: wrap;
+    width: 926px;
+  }
+  .container-wrap .box {
+    width: 211.5px;
+    height: 141px;
+  }
+  .contain-flex {
+    flex-direction: column;
+  }
+  .contain-flex img {
+    width: 61rem;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .the-text {
+    text-align: center;
+  }
+  .the-text p {
+    width: 29.5rem;
+  }
+  .portfolio p {
+    margin: 1rem 8.1rem;
+  }
+  .container-wrap {
+    width: 695px;
+  }
+  .container-wrap .box {
+    width: 327px;
+    height: 218px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .history-wrap {
+    padding-left: 10px;
+  }
+
+  .portfolio p {
+    margin: 1rem 3rem;
+  }
+  .second-header {
+    font-size: 56.9821px;
+  }
+  .container-wrap {
+    width: 577px;
+  }
+  .container-wrap .box {
+    width: 266.5px;
+    height: 177.66px;
+  }
+}

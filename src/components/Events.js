@@ -26,7 +26,7 @@ function Events() {
               <h5>READ MORE</h5>
               <hr />
             </div>
-            <div className="two">
+            <div className="one">
               <div className="img-container">
                 <img src="./images/02.jpg" alt="hands on camera" />
               </div>
@@ -83,49 +83,41 @@ function Events() {
                 <div className="progress-title">
                   <p>Photography</p>
                 </div>
-                <div className="progress-number">
-                  <div className="the-number">
-                    <span>100 %</span>
-                  </div>
+                <div className="the-number">
+                  <span> %</span>
                 </div>
               </div>
               <progress className="progress" value="100" max="100"></progress>
             </div>
-            <div className="progress-one">
+            <div className="progress-two just">
               <div className="title-wrap">
                 <div className="progress-title">
                   <p>Design</p>
                 </div>
-                <div className="progress-number">
-                  <div className="the-number">
-                    <span>90 %</span>
-                  </div>
+                <div className="the-number">
+                  <span> %</span>
                 </div>
               </div>
               <progress className="progress" value="90" max="100"></progress>
             </div>
-            <div className="progress-one">
+            <div className="progress-three just">
               <div className="title-wrap">
                 <div className="progress-title">
                   <p>Coverage</p>
                 </div>
-                <div className="progress-number">
-                  <div className="the-number">
-                    <span>80 %</span>
-                  </div>
+                <div className="the-number">
+                  <span> %</span>
                 </div>
               </div>
               <progress className="progress" value="80" max="100"></progress>
             </div>
-            <div className="progress-one">
+            <div className="progress-four">
               <div className="title-wrap">
                 <div className="progress-title">
                   <p>Art</p>
                 </div>
-                <div className="progress-number">
-                  <div className="the-number">
-                    <span>70 %</span>
-                  </div>
+                <div className="the-number">
+                  <span> %</span>
                 </div>
               </div>
               <progress className="progress" value="70" max="100"></progress>
