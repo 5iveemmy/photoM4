@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Router>
-        <PhotoSection />
-        <Navbar />
-        <Events />
+        {/* <Navbar />
+        <PhotoSection /> */}
+        {/* <Events /> */}
         <History />
         <Teams />
       </Router>

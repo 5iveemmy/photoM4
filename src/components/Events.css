@@ -352,6 +352,7 @@ progress {
 
   .photo-text p {
     width: 33rem;
+    margin-right: -2rem;
   }
 
   .the-number {
@@ -360,7 +361,7 @@ progress {
   }
 
   .the-image img {
-    width: 550px;
+    width: 529px;
     height: 600px;
   }
   .counter-flex {

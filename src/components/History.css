@@ -368,9 +368,10 @@
     font-size: 56.9821px;
   }
   .container-wrap {
-    width: 577px;
+    width: 564px;
   }
   .container-wrap .box {
+    margin: 7px;
     width: 266.5px;
     height: 177.66px;
   }
