@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <Router>
-        {/* <Navbar />
-        <PhotoSection /> */}
-        {/* <Events /> */}
+        <Navbar />
+        <PhotoSection />
+        <Events />
         <History />
         <Teams />
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }
