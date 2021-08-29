@@ -1,4 +1,6 @@
 import React from "react";
+import Bex from "./Bex";
+import Box from "./Box";
 import "./History.css";
 function History() {
   return (
@@ -37,95 +39,21 @@ function History() {
 
       <div className="pictures">
         <div className="pictures-flex">
-          <div className="bex">
-            <div className="img-bex">
-              <img src="../images/gallery01.jpg" alt="snow on mountain" />
-            </div>
-            <div className="deteils">
-              <div className="content">
-                <h4>ARTWORK</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <div className="bex">
-            <div className="img-bex">
-              <img src="../images/gallery02.jpg" alt="bridge" />
-            </div>
-            <div className="deteils">
-              <div className="content">
-                <h4>ARTWORK</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <div className="bex">
-            <div className="img-bex">
-              <img src="../images/background1.jpg" alt="red mountain" />
-            </div>
-            <div className="deteils">
-              <div className="content">
-                <h4>ARTWORK</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-              </div>
-            </div>
-          </div>
+          <Bex src="../images/gallery01.jpg" />
+          <Bex src="../images/gallery02.jpg" />
+          <Bex src="../images/background1.jpg" />
         </div>
       </div>
       <div className="container">
         <div className="container-wrap">
-          <div className="box">
-            <div className="img-box">
-              <img src="../images/background1.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
-          <div className="box">
-            <div className="img-box">
-              <img src="../images/gallery02.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
-          <div className="box">
-            <div className="img-box">
-              <img src="../images/gallery01.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
-          <div className="box">
-            <div className="img-box">
-              <img src="../images/gallery03.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
-          <div className="box">
-            {" "}
-            <div className="img-box">
-              <img src="../images/gallery04.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
-          <div className="box">
-            {" "}
-            <div className="img-box">
-              <img src="../images/gallery05.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
-          <div className="box">
-            {" "}
-            <div className="img-box">
-              <img src="../images/gallery06.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
-          <div className="box">
-            {" "}
-            <div className="img-box">
-              <img src="../images/gallery07.jpg" />
-            </div>
-            <div className="details"></div>
-          </div>
+          <Box src="../images/gallery01.jpg" />
+          <Box src="../images/gallery02.jpg" />
+          <Box src="../images/gallery03.jpg" />
+          <Box src="../images/gallery04.jpg" />
+          <Box src="../images/gallery05.jpg" />
+          <Box src="../images/gallery06.jpg" />
+          <Box src="../images/gallery07.jpg" />
+          <Box src="../images/gallery08.jpg" />
         </div>
       </div>
       <div className="container-2">

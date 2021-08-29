@@ -16,7 +16,7 @@
 .faces {
   color: white;
 }
-.face-one {
+/* .face-one {
   background-color: #29a7c6;
   padding: 16px 15px;
 }
@@ -32,7 +32,7 @@
 .face-four {
   background-color: #d6952c;
   padding: 16px 15px;
-}
+} */
 
 .faces img {
   width: 298px;

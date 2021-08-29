@@ -24,7 +24,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className={navbar ? "navbar active" : "navbar"}>
+      <nav className={navbar || click ? "navbar active" : "navbar"}>
         <div className="navbar-container">
           <div className="nav-wrap">
             <div className="right-head">

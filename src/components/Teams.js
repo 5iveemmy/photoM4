@@ -1,8 +1,14 @@
 import React from "react";
 import { CgStack } from "react-icons/cg";
 import { WiTime10 } from "react-icons/wi";
+import Person from "./person";
 import "./Teams.css";
-
+let colors = {
+  black: "#000000",
+  yellow: " #d6952c",
+  orange: " #ed6031",
+  blue: " #29a7c6",
+};
 function Teams() {
   return (
     <>
@@ -12,53 +18,31 @@ function Teams() {
           <h2 className="second-header">Our Team</h2>
           <div className="faces">
             <div className="faces-wrap">
-              <div className="face-one">
-                <img
-                  src="../images/face1.jpg"
-                  alt="face with blue background"
-                />
-                <div className="face-text">
-                  <h3>Developer</h3>
-                  <h4>Ann james</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    eu dui non diam eleifend egestas id a ligula.
-                  </p>
-                </div>
-              </div>
-              <div className="face-two">
-                <img src="../images/face2.jpg" alt="face with red shirt" />
-                <div className="face-text">
-                  <h3>Designer</h3>
-                  <h4>Anissa Fisher</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    eu dui non diam eleifend egestas id a ligula.
-                  </p>
-                </div>
-              </div>
-              <div className="face-three">
-                <img src="../images/face3.jpg" alt="face with white shirt" />
-                <div className="face-text">
-                  <h3>Manager</h3>
-                  <h4>Steven Bruce</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    eu dui non diam eleifend egestas id a ligula.
-                  </p>
-                </div>
-              </div>
-              <div className="face-four">
-                <img src="../images/face4.jpg" alt="face with blue jacket" />
-                <div className="face-text">
-                  <h3>Photographer</h3>
-                  <h4>Lisa Born</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    eu dui non diam eleifend egestas id a ligula.
-                  </p>
-                </div>
-              </div>
+              <Person
+                src="../images/face1.jpg"
+                role="Developer"
+                color={colors.blue}
+                firstName="Ann james"
+                description="I am a very passsionate person, I love boobies"
+              />
+              <Person
+                src="../images/face2.jpg"
+                role="Designer"
+                color={colors.orange}
+                firstName="Anissa Fisher"
+              />
+              <Person
+                src="../images/face3.jpg"
+                role="Photographer"
+                color={colors.black}
+                firstName="Steven Bruce"
+              />
+              <Person
+                src="../images/face4.jpg"
+                role="Photographer"
+                color={colors.yellow}
+                firstName="Lisa Born"
+              />
             </div>
           </div>
         </div>
