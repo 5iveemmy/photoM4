@@ -148,9 +148,9 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .faces-wrap {
+  /* .faces-wrap {
     width: 44rem;
-  }
+  } */
 
   .faces img {
     width: 476px;
@@ -208,7 +208,7 @@
 
 @media only screen and (max-width: 575px) {
   .faces img {
-    width: 463px;
+    width: 458px;
     height: 694px;
   }
 
@@ -217,6 +217,6 @@
   }
 
   .faces-wrap {
-    width: 30rem;
+    width: 29rem;
   }
 }
