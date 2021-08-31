@@ -1,6 +1,38 @@
 * {
   font-family: DM Sans, sans-serif;
 }
+
+/**
+@media only screen and (max-width: 700px) {
+  .photo,
+  .photography,
+  .history,
+  .clients,
+  .footer,
+  .footer-bottom,
+  .portfolio,
+  .events,
+  .container,
+  .container-2,
+  .team {
+    width: 106%;
+  }
+  .form-icon-one .far,
+  .form-icon-one .fas {
+    right: 2.5rem;
+  }
+  .far {
+    right: 18.7rem;
+  }
+  .progress {
+    width: 90%;
+  }
+
+  .the-number {
+    right: 71px;
+  }
+} */
+
 @media only screen and (max-width: 450px) {
   .photo,
   .photography,
@@ -9,13 +41,12 @@
   .footer-bottom {
     width: 116.5%;
   }
+  .events {
+    width: 116%;
+  }
 
   .mid-head {
     font-size: 74px;
-    width: 29rem;
-  }
-  .events {
-    padding-left: 1.8rem;
   }
 
   .the-image img {
@@ -36,7 +67,6 @@
   .img-bax {
     width: 32.6rem;
   }
-  .header,
   .second-header {
     padding-left: 2rem;
     width: 100%;
@@ -49,5 +79,9 @@
   }
   .far {
     right: 10.2rem;
+  }
+
+  .for-form {
+    width: 116%;
   }
 }

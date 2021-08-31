@@ -369,9 +369,44 @@
   }
 }
 
+@media only screen and (max-width: 700px) {
+  /* .pictures-flex img {
+    width: 300px;
+  } */
+  .form {
+    padding: 0px 35px;
+  }
+  .write {
+    margin: 0px 76px;
+  }
+  .container-wrap .box {
+    width: 315px;
+    height: 204px;
+  }
+  .container-wrap {
+    width: 670px;
+  }
+  .form-icon-one .far,
+  .form-icon-one .fas {
+    right: 3.8rem;
+  }
+  .far {
+    right: 20rem;
+  }
+  /* .pictures-flex .bex {
+    width: 10rem;
+  } */
+}
+
 @media only screen and (max-width: 600px) {
+  .write {
+    margin: 0px 38px;
+  }
   .history-wrap {
     padding-left: 10px;
+  }
+  .faces-wrap {
+    width: 34rem;
   }
 
   .portfolio p {
@@ -387,6 +422,13 @@
     margin: 7px;
     width: 266.5px;
     height: 177.66px;
+  }
+  .far {
+    right: 16.5rem;
+  }
+  .form-icon-one .far,
+  .form-icon-one .fas {
+    right: 5px;
   }
 }
 

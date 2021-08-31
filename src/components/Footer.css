@@ -270,3 +270,26 @@
     right: 0.1rem;
   }
 }
+
+@media only screen and (max-width: 520px) {
+  .write {
+    width: 25rem;
+  }
+
+  .form {
+    padding: 0px 14px !important;
+  }
+  .form-control {
+    width: 11.7rem;
+  }
+  .far {
+    right: 14.5rem;
+  }
+  #email,
+  #phone,
+  #subject,
+  #text-area,
+  #hear {
+    width: 26.5rem;
+  }
+}
