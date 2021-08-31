@@ -337,6 +337,19 @@
   }
 }
 
+@media only screen and (max-width: 839px) {
+  .container-wrap .box {
+    width: 173.25px;
+    height: 120.5px;
+  }
+  .container-wrap {
+    width: 774px;
+  }
+  .contain-flex img {
+    width: 821px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .the-text {
     text-align: center;
@@ -374,5 +387,16 @@
     margin: 7px;
     width: 266.5px;
     height: 177.66px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .container-wrap {
+    width: 506px;
+  }
+
+  .container-wrap .box {
+    width: 239px;
+    height: 159.6px;
   }
 }

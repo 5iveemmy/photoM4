@@ -1,6 +1,16 @@
 import React from "react";
 import Bex from "./Bex";
 import Box from "./Box";
+import Bax from "./Bax";
+import galleryOne from "../images/gallery01.jpg";
+import galleryTwo from "../images/gallery02.jpg";
+import galleryThree from "../images/gallery03.jpg";
+import galleryFour from "../images/gallery04.jpg";
+import galleryFive from "../images/gallery05.jpg";
+import gallerySix from "../images/gallery06.jpg";
+import gallerySeven from "../images/gallery07.jpg";
+import backgroundOne from "../images/background1.jpg";
+
 import "./History.css";
 function History() {
   return (
@@ -39,56 +49,27 @@ function History() {
 
       <div className="pictures">
         <div className="pictures-flex">
-          <Bex src="../images/gallery01.jpg" />
-          <Bex src="../images/gallery02.jpg" />
-          <Bex src="../images/background1.jpg" />
+          <Bex src={galleryOne} />
+          <Bex src={galleryTwo} />
+          <Bex src={backgroundOne} />
         </div>
       </div>
       <div className="container">
         <div className="container-wrap">
-          <Box src="../images/gallery01.jpg" />
-          <Box src="../images/gallery02.jpg" />
-          <Box src="../images/gallery03.jpg" />
-          <Box src="../images/gallery04.jpg" />
-          <Box src="../images/gallery05.jpg" />
-          <Box src="../images/gallery06.jpg" />
-          <Box src="../images/gallery07.jpg" />
-          <Box src="../images/gallery08.jpg" />
+          <Box src={backgroundOne} />
+          <Box src={galleryOne} />
+          <Box src={galleryTwo} />
+          <Box src={galleryThree} />
+          <Box src={galleryFour} />
+          <Box src={galleryFive} />
+          <Box src={gallerySix} />
+          <Box src={gallerySeven} />
         </div>
       </div>
       <div className="container-2">
         <div className="contain-flex">
-          <div className="bax">
-            <div className="img-bax">
-              <img src="../images/gallery01.jpg" alt="snow on mountain" />
-            </div>
-            <div className="detaails">
-              <div className="contant">
-                <h5>ARTWORK</h5>
-                <h6>Landscapes Photography</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ullamcorper elementum.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="bax">
-            <div className="img-bax">
-              <img src="../images/gallery02.jpg" alt="bridge" />
-            </div>
-            <div className="detaails">
-              <div className="contant">
-                <h5>ARTWORK</h5>
-                <h6>Landscapes Photography</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ullamcorper elementum.
-                </p>
-              </div>
-            </div>
-          </div>
+          <Bax src={galleryOne} />
+          <Bax src={galleryTwo} />
         </div>
       </div>
     </>

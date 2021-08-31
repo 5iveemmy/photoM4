@@ -147,21 +147,23 @@
     }
   }
 }
+@media only screen and (max-width: 768px) {
+  .faces-wrap {
+    width: 44rem;
+  }
 
-@media only screen and (max-width: 600px) {
   .faces img {
     width: 476px;
     height: 714px;
   }
+  .faces p {
+    width: 27rem;
+    text-align: center;
+  }
   .face-text {
     text-align: center;
-    padding: 12px 22px 28px;
+    padding: 47px 22px 16px;
   }
-  .faces p {
-    text-align: center;
-    width: 27rem;
-  }
-
   .clients-wrap {
     flex-direction: column;
     align-items: center;
@@ -187,5 +189,34 @@
   }
   .lil-icons p {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* .face-text {
+    text-align: center;
+    padding: 12px 22px 28px;
+  } */
+  .faces p {
+    text-align: center;
+    width: 27rem;
+  }
+  .faces-wrap {
+    width: 33rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .faces img {
+    width: 463px;
+    height: 694px;
+  }
+
+  .faces p {
+    width: 26rem;
+  }
+
+  .faces-wrap {
+    width: 30rem;
   }
 }

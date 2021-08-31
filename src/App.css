@@ -1,3 +1,53 @@
 * {
   font-family: DM Sans, sans-serif;
 }
+@media only screen and (max-width: 450px) {
+  .photo,
+  .photography,
+  .history,
+  .clients,
+  .footer-bottom {
+    width: 116.5%;
+  }
+
+  .mid-head {
+    font-size: 74px;
+    width: 29rem;
+  }
+  .events {
+    padding-left: 1.8rem;
+  }
+
+  .the-image img {
+    width: 477px;
+  }
+  .counter,
+  .portfolio-wrap {
+    padding-left: 6rem;
+  }
+  .counter-flex p {
+    width: 19rem;
+  }
+
+  .portfolio p {
+    margin: 1rem -2rem;
+  }
+  .img-bex,
+  .img-bax {
+    width: 32.6rem;
+  }
+  .header,
+  .second-header {
+    padding-left: 2rem;
+    width: 100%;
+  }
+  .form-icon-one .far,
+  .form-icon-two .fas,
+  .row-two .fas,
+  #email-row i {
+    left: 27.8rem;
+  }
+  .far {
+    right: 10.2rem;
+  }
+}

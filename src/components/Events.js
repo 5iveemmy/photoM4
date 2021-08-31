@@ -1,6 +1,9 @@
 import React from "react";
 import { BiCamera, CgStack, HiOutlineLightBulb } from "react-icons/all";
 import "./Events.css";
+import first from "../images/01.jpg";
+import second from "../images/02.jpg";
+import third from "../images/03.jpg";
 
 function Events() {
   return (
@@ -12,7 +15,7 @@ function Events() {
           <div className="event-flex">
             <div className="one">
               <div className="img-container">
-                <img src="./images/01.jpg" alt="hands on camera" />
+                <img src={first} alt="hands on camera" />
               </div>
               <h3 className="for-date">AUGUST 23 - DECEMBER 24, 2021</h3>
               <h4 className="event-third-head">
@@ -28,7 +31,7 @@ function Events() {
             </div>
             <div className="one">
               <div className="img-container">
-                <img src="./images/02.jpg" alt="hands on camera" />
+                <img src={second} alt="hands on camera" />
               </div>
               <h3 className="for-date">AUGUST 23 - DECEMBER 24, 2021</h3>
               <h4 className="event-third-head">
@@ -44,7 +47,7 @@ function Events() {
             </div>
             <div className="one">
               <div className="img-container">
-                <img src="./images/03.jpg" alt="hands on camera" />
+                <img src={third} alt="hands on camera" />
               </div>
               <h3 className="for-date">AUGUST 23 - DECEMBER 24, 2021</h3>
               <h4 className="event-third-head">
@@ -124,7 +127,7 @@ function Events() {
             </div>
           </div>
           <div className="the-image">
-            <img src="./images/02.jpg" alt="hands on camera" />
+            <img src={second} alt="hands on camera" />
           </div>
         </div>
       </div>
