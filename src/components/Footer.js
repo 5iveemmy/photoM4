@@ -29,7 +29,7 @@ function Footer() {
                 </div>
                 <div className="row-two">
                   <span className="form-icon-one">
-//                     <i class="far fa-user-circle"></i>
+                    <i class="far fa-user-circle"></i>
                   </span>
                   <input
                     type="text"
@@ -40,7 +40,7 @@ function Footer() {
               </div>
               <div className="first-row" id="new-row">
                 <div className="row-one" id="email-row">
-//                   <i class="far fa-envelope"></i>
+                  <i class="far fa-envelope"></i>
                   <input
                     placeholder="Email"
                     type="email"
@@ -50,7 +50,7 @@ function Footer() {
                 </div>
                 <div className="row-two" id="phone-id">
                   <span className="form-icon-one">
-//                     <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-phone-alt"></i>
                   </span>
                   <input
                     placeholder="Phone"
@@ -86,7 +86,7 @@ function Footer() {
               </div>
               <div className="second-row">
                 <span className="form-icon-one">
-//                   <i class="far fa-clipboard"></i>
+                  <i class="far fa-clipboard"></i>
                 </span>
                 <input
                   placeholder="How did you hear about us?"
