@@ -28,9 +28,15 @@ function Footer() {
                   />
                 </div>
                 <div className="row-two">
+<<<<<<< HEAD
                   {/* <span className="form-icon-one">
                     <i class="far fa-user-circle"></i>
                   </span> */}
+=======
+                  <span className="form-icon-one">
+                    <i class="far fa-user-circle"></i>
+                  </span>
+>>>>>>> a7a53f7709e2be4a85731686c71ff82467e15fe1
                   <input
                     type="text"
                     placeholder="Last Name"
@@ -49,9 +55,15 @@ function Footer() {
                   />
                 </div>
                 <div className="row-two" id="phone-id">
+<<<<<<< HEAD
                   {/* <span className="form-icon-one">
                     <i class="fas fa-phone-alt"></i>
                   </span> */}
+=======
+                  <span className="form-icon-one">
+                    <i class="fas fa-phone-alt"></i>
+                  </span>
+>>>>>>> a7a53f7709e2be4a85731686c71ff82467e15fe1
                   <input
                     placeholder="Phone"
                     type="tel"
@@ -61,9 +73,15 @@ function Footer() {
                 </div>
               </div>
               <div className="second-row">
+<<<<<<< HEAD
                 {/* <span className="form-icon-one">
                   <i class="far fa-clipboard"></i>
                 </span> */}
+=======
+                <span className="form-icon-one">
+                  <i class="far fa-clipboard"></i>
+                </span>
+>>>>>>> a7a53f7709e2be4a85731686c71ff82467e15fe1
                 <input
                   placeholder="Subject"
                   type="text"
@@ -72,9 +90,15 @@ function Footer() {
                 />
               </div>
               <div className="text-row">
+<<<<<<< HEAD
                 {/* <span className="form-icon-one">
                   <i class="far fa-clipboard"></i>
                 </span> */}
+=======
+                <span className="form-icon-one">
+                  <i class="far fa-clipboard"></i>
+                </span>
+>>>>>>> a7a53f7709e2be4a85731686c71ff82467e15fe1
                 <textarea
                   name="message"
                   placeholder="Message"
@@ -85,9 +109,15 @@ function Footer() {
                 ></textarea>
               </div>
               <div className="second-row">
+<<<<<<< HEAD
                 {/* <span className="form-icon-one">
                   <i class="far fa-clipboard"></i>
                 </span> */}
+=======
+                <span className="form-icon-one">
+                  <i class="far fa-clipboard"></i>
+                </span>
+>>>>>>> a7a53f7709e2be4a85731686c71ff82467e15fe1
                 <input
                   placeholder="How did you hear about us?"
                   type="text"
