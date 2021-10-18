@@ -40,7 +40,7 @@ function Footer() {
               </div>
               <div className="first-row" id="new-row">
                 <div className="row-one" id="email-row">
-                  <i class="far fa-envelope"></i>
+                  {/* <i class="far fa-envelope"></i> */}
                   <input
                     placeholder="Email"
                     type="email"
