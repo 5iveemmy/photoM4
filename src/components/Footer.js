@@ -62,7 +62,7 @@ function Footer() {
               </div>
               <div className="second-row">
                 <span className="form-icon-one">
-//                   <i class="far fa-clipboard"></i>
+                  <i class="far fa-clipboard"></i>
                 </span>
                 <input
                   placeholder="Subject"
@@ -73,7 +73,7 @@ function Footer() {
               </div>
               <div className="text-row">
                 <span className="form-icon-one">
-//                   <i class="far fa-clipboard"></i>
+                  <i class="far fa-clipboard"></i>
                 </span>
                 <textarea
                   name="message"
