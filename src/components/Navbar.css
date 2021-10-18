@@ -191,9 +191,11 @@
     width: 97%;
     font-weight: 600;
   }
+
   .menu-wrap {
     margin-top: 54px;
   }
+
   .menu-icon {
     display: block;
     position: absolute;
@@ -202,6 +204,7 @@
     color: white;
     cursor: pointer;
   }
+  
   .fa-bars,
   .fa-times {
     transform: scale(2.4, 1.7);

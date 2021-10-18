@@ -20,7 +20,7 @@ function Footer() {
             <form action="" className="form">
               <div className="first-row">
                 <div className="row-one">
-                  <i class="far fa-user-circle"></i>
+                  {/* <i class="far fa-user-circle"></i> */}
                   <input
                     placeholder="First Name"
                     type="text"
@@ -29,7 +29,7 @@ function Footer() {
                 </div>
                 <div className="row-two">
                   <span className="form-icon-one">
-                    <i class="far fa-user-circle"></i>
+                    {/* <i class="far fa-user-circle"></i> */}
                   </span>
                   <input
                     type="text"
@@ -62,7 +62,7 @@ function Footer() {
               </div>
               <div className="second-row">
                 <span className="form-icon-one">
-                  <i class="far fa-clipboard"></i>
+                  {/* <i class="far fa-clipboard"></i> */}
                 </span>
                 <input
                   placeholder="Subject"
@@ -73,7 +73,7 @@ function Footer() {
               </div>
               <div className="text-row">
                 <span className="form-icon-one">
-                  <i class="far fa-clipboard"></i>
+                  {/* <i class="far fa-clipboard"></i> */}
                 </span>
                 <textarea
                   name="message"
@@ -86,7 +86,7 @@ function Footer() {
               </div>
               <div className="second-row">
                 <span className="form-icon-one">
-                  <i class="far fa-clipboard"></i>
+                  {/* <i class="far fa-clipboard"></i> */}
                 </span>
                 <input
                   placeholder="How did you hear about us?"
